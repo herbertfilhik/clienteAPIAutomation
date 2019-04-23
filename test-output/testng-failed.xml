@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="APITesting.com.org.api.WheaterGetRequests"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="APITesting.com.org.api.WheaterGetRequests">
+        <methods>
+          <include name="Test_07"/>
+          <include name="Test_05"/>
+          <include name="Test_03"/>
+          <include name="Test_06"/>
+          <include name="Test_01"/>
+          <include name="Test_04"/>
+          <include name="Test_02"/>
+        </methods>
+      </class> <!-- APITesting.com.org.api.WheaterGetRequests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
