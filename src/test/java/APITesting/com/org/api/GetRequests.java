@@ -8,7 +8,7 @@ import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 import static com.jayway.restassured.RestAssured.*;
 
-public class WheaterGetRequests {
+public class GetRequests {
 	
 	@Test(enabled = true)
 	public void Test_01() {
